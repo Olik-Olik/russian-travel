@@ -1,0 +1,9 @@
+.footer{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    padding: 92px 48px 24px 48px;
+    max-width: 1189px; /*1184*/
+
+}

@@ -1,0 +1,13 @@
+.lead__caption{
+ margin-top: 8px;
+    /*8 px 974px 0 148px;*/
+    margin-left: 148px;
+    max-width: 158px;
+    max-height: 14px;
+    display: flex;
+    Size:10px;
+    justify-content: space-between;
+    align-items:baseline;
+
+    /*font-size:15%;     margin: 8px 974px 0 148px;*/
+}

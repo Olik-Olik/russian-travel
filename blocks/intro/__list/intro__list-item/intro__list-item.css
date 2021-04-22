@@ -1,0 +1,13 @@
+.intro__list-item{
+    padding-left: 0;
+    margin-left: 148px;
+    width: 690px;
+    margin-right: 442px;
+    margin-top: 33px;
+    display: flex;
+    flex-direction:column;
+    font-style:normal;
+    font-size:12px;
+    Line-height:18px;
+    font-weight: 400;
+}

@@ -1,0 +1,12 @@
+.photo-grid{
+    padding: 0;
+    margin:0 48px 0 48px;
+    display: grid;
+    justify-items: start;
+    grid-column-gap: 16px;/*1em*/
+    grid-row-gap: 16px;
+    grid-template-columns:repeat(4,284px);
+    grid-template-rows:repeat(3,213px);
+    max-width: 1184px;/*стоит ли упоминать хз*/
+    max-Height:671px;
+}

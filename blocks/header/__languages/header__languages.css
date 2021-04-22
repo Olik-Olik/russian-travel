@@ -1,0 +1,18 @@
+.header__languages{
+    padding: 0;
+    display: grid;
+    justify-items: flex-end;
+    grid-column-gap: 18px;
+    grid-template-columns:30px 29px;
+    align-items: baseline;
+}
+.header__lang-ru{
+    max-height:28px;
+    max-width: 30px;
+    text-decoration: none;
+}
+.header__lang-en{
+    max-height:28px;
+    max-width: 29px;
+    text-decoration: none;
+}

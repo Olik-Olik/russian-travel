@@ -1,0 +1,10 @@
+.intro__list{
+    margin:0;
+    padding: 0;
+    display: grid;
+    justify-items: start;
+   /* grid-column-gap: 18px;*/
+    grid-template-columns:repeat(5,min-content);
+    max-width: 960px;/*стоит ли упоминать хз*/
+    text-decoration: none;
+}
