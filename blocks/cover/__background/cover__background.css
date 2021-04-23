@@ -1,0 +1,8 @@
+.cover__background{
+    height: 740px;
+    border-radius: 0;
+    margin: 0 auto;
+    position: relative;
+    left: -3em;/*-48*/
+    width: calc(100% + 6em);
+}

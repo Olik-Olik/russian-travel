@@ -1,12 +1,15 @@
 .photo-grid{
     padding: 0;
-    margin:0 48px 0 48px;
+    /*margin:0 3em 0 3em;*/
+    margin: 0 auto;
     display: grid;
     justify-items: start;
-    grid-column-gap: 16px;/*1em*/
-    grid-row-gap: 16px;
-    grid-template-columns:repeat(4,284px);
-    grid-template-rows:repeat(3,213px);
-    max-width: 1184px;/*стоит ли упоминать хз*/
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-template-columns:repeat(4,17.75em);
+    grid-template-rows:repeat(3,13.375em);
+    left: 3em;
+    max-width: calc(100% - 6em);
+    /*max-width: 1184px;/*стоит ли упоминать хз*/
     max-Height:671px;
 }

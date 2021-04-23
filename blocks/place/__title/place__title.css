@@ -1,0 +1,12 @@
+.place__title{
+    font-size: 4.5em;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 4.75em;
+    letter-spacing: 0;
+  /*  text-align: left;*/
+    left: 9.25em;
+    max-width: calc(100% - 5em);
+    height: 9.5em;
+
+}
