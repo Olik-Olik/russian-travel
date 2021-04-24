@@ -1,12 +1,35 @@
-.place__title{
-    font-size: 4.5em;
+.place__title {
+    margin:0;
+    font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: 4.75em;
-    letter-spacing: 0;
-  /*  text-align: left;*/
-    left: 9.25em;
-    max-width: calc(100% - 5em);
-    height: 9.5em;
-
+    line-height: 76px;
+    /*padding-top: 92px;
+    padding-left: 148px;
+    padding-bottom: 48px;
+    padding-right: 40px;
+    box-sizing: border-box;*/
+    width: 460px;
+    height: 152px;
+    grid-column: 1;/*2 элемента в названии*/
+    grid-row:1;
 }
+
+
+/*margin: 0;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 76px;
+padding-top: 92px;
+padding-left: 148px;
+padding-bottom: 48px;
+padding-right: 40px;
+width: 460px;
+height: 152px;
+box-sizing: border-box;
+/*font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 76px;
+text-align: left;*/
