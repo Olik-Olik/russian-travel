@@ -7,6 +7,8 @@
     text-decoration-line: underline;
     max-width: 456px;
     max-height: 22px;
+    grid-column: 2/2;
+    grid-row:1/3;
 }
 .place__link:hover {
      color: #AAAAAA;
