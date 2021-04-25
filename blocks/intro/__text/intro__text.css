@@ -1,5 +1,11 @@
 .intro__text{
-    margin: 40px 442px 0 148px;
-    max-width: 690px;
-    max-height: 208px;
+    margin-right:48px;
+    bottom: 33px;
+    max-width:53.9%; /*690px;*/
+    /* max-height: 208px;*/
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0;
 }

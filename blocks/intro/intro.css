@@ -1,0 +1,11 @@
+.intro{
+    margin: 0 48px;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 58px 208px 90px;
+    gap: 40px 33px;
+
+    height: 429px;
+    width: 690px;
+    padding-left: 148px;
+}

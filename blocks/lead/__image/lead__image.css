@@ -1,6 +1,9 @@
 .lead__image{
-    padding: 0;
-    margin: 64px 48px 0 48px;
-    max-width:984px;
-    max-Height:615px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 64px 48px 0 48px;
+    width:984px;
+    max-height: 615px;
+    object-fit: cover;
 }

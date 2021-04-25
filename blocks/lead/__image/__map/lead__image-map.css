@@ -1,0 +1,12 @@
+.lead__image-map{
+    display: block;
+    position: absolute;
+    /*padding: 64px 48px 0 48px;*/
+    /*width: 95.15%;
+    height:224.59px;
+    top: 632.61px*/
+    margin: 0 auto;
+    left:4.217%;
+    top:51%;
+    width: 95.15%;
+}

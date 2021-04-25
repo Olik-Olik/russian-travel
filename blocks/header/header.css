@@ -1,7 +1,5 @@
-.header{
-    padding: 28px;
-    left: 3em;
-    top: 1.75em;
-    max-width: 800px; /*1184px;*/
-    max-height: 3.25em;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

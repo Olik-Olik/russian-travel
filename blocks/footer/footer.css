@@ -1,9 +1,11 @@
 .footer{
-    margin: auto;
-    display: flex;
+    margin: 0;
+    /*display: flex;
     justify-content: space-between;
     align-items:baseline;
     padding: 92px 48px 24px 48px;
-    max-width: 1189px; /*1184*/
-
+    max-width: 1189px;*/
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 41.64%;
 }

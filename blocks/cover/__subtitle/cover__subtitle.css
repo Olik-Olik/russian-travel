@@ -1,16 +1,18 @@
-.cover__subtitle{
-    margin: 0 auto;
-    position: relative;
-    left: -412px;/*25.75em*/
-    width: calc(100% + 824px);
-    /*height: calc();*/
+.cover__subtitle {
     height: 4.125em;
-    font-size: 1.125em;
+    margin: 0 auto;
+    position: absolute;
+    max-width: 360px;
+    max-height: 66px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 1px;
+    line-height: 122.2%;
     letter-spacing: 0;
+    z-index: 3000;
+    margin-top: 429px;
+    margin-left: 412px;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    z-index: 3;
-/*подумать как указать плавающую высоту*/
 }

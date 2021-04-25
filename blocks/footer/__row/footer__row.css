@@ -1,11 +1,12 @@
 .footer__row{
     margin:0;
-    padding: 0;
     display: grid;
     justify-items: start;
-    /* сделаю список не забуду разремить list-style-type: none;*/
     grid-column-gap: 18px;
-    grid-template-columns:repeat(5,min-content);
-    max-width: 878px;/*стоит ли упоминать хз*/
+    grid-template-columns:repeat(5,1fr);
+    max-width: 878px;/*стоит ли упоминать */
     text-decoration: none;
+    color:#FFFFFF;
+    padding-top: 92px;
+    padding-bottom: 24px;
 }

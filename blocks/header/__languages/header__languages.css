@@ -1,24 +1,14 @@
 .header__languages{
     padding: 0;
     margin: 0;
-    display: grid;
-    grid-column-gap: 18px;
-    grid-template-columns: 30px 29px;
-    justify-items: end;
     max-height: 1.75em;
-    right: 3em;
-    justify-content: right;
     top: 1.75em;
     border-radius: 0;
     max-width: 77px;
-}
-.header__languages-ru{
-    max-height:28px;
-    max-width: 30px;
     text-decoration: none;
-}
-.header__languages-en{
-    max-height:28px;
-    max-width: 29px;
-    text-decoration: none;
+    display: grid;
+    gap: 18px;
+    grid-template-columns: 30px 29px;
+    justify-items: flex-start;
+    right: -48px;
 }

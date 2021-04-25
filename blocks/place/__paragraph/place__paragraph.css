@@ -2,28 +2,23 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 29px;
-    /*text-align: left;*/
-    max-width: 484px;
+    line-height: 161%;
     width: 484px;
-    /*height: 261px;
-    display: flex;
-    justify-content: flex-end; может гридами  попробовать*/
-    grid-column: 1/2;
-    grid-row:1/2;
-
-
+    grid-column: 2/3;
+    grid-row:2/3;
 }
 
-.place__paragraph:nth-child(2) {
+.place__paragraphs:nth-child(2) {
     margin-bottom: 0;
     margin-top: 0;
     width: 484px;
     margin-left: 148px;
-   /* display: flex;
-    justify-content: flex-end;*/
-    align-self: end;
 }
+   /* display: flex;
+    justify-content: flex-end;
+     width: 484px;*/
+
+
 
 /*.place__paragraph{
 width: 484px;

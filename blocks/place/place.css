@@ -3,9 +3,10 @@
     max-width: 984px;
     max-height: 660px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-   /* gap:40px 48px;*/
-    column-gap: 40px;
-    row-gap: 48px;
+    grid-template-columns:repeat(2,1f
+    );
+    grid-template-rows:repeat(2,1f
+    );
+    gap:40px 48px;
+    align-items: stretch;
 }

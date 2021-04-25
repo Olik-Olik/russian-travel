@@ -1,16 +1,24 @@
 .cover__title{
-   margin: 0 auto;
+    margin: 0 auto;
     position: absolute;
-    left: 3em;
-    width: calc(100% - 45em);
-    /*height: calc();*/
-    height: 9.5em;
+    max-width: 560px;
+    max-height: 152px;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: 76px;
+    line-height: 105%;
     letter-spacing: 0;
-    /*text-align: center;*/
     z-index: 3000;
-
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 245px;
+    margin-left: 312px;
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+.cover__title:hover{
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
 }

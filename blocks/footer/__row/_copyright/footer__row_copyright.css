@@ -1,8 +1,6 @@
 .footer__row_copyright{
     margin: auto;
-    display: flex;
-    justify-items: flex-end;
-    align-items:baseline;
+
     padding: 92px 0 24px 0;
     max-width: 1184px;
     color: #FFFFFF;
