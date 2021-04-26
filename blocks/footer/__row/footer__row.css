@@ -4,7 +4,7 @@
     justify-items: start;
     grid-column-gap: 18px;
     grid-template-columns:repeat(5,1fr);
-    max-width: 878px;/*стоит ли упоминать */
+    max-width: 878px;
     text-decoration: none;
     color:#FFFFFF;
     padding-top: 92px;

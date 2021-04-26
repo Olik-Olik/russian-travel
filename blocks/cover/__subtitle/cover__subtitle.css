@@ -1,18 +1,13 @@
 .cover__subtitle {
-    height: 4.125em;
-    margin: 0 auto;
-    position: absolute;
+    margin: 32px 412px;
     max-width: 360px;
-    max-height: 66px;
     font-style: normal;
     line-height: 122.2%;
     letter-spacing: 0;
     z-index: 3000;
-    margin-top: 429px;
-    margin-left: 412px;
+    margin-top: 429px;/*относительно титла 32 или блока */
     font-size: 18px;
     font-weight: 400;
-    display: flex;
-    justify-content: center;
     text-align: center;
+    box-sizing: border-box;
 }

@@ -9,6 +9,7 @@
     display: grid;
     gap: 18px;
     grid-template-columns: 30px 29px;
-    justify-items: flex-start;
-    right: -48px;
+    justify-items: flex-end;
+    grid-area: end;
 }
+

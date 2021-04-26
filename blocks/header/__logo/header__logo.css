@@ -1,7 +1,6 @@
 .header__logo{
-    max-height: 52px;
-    left: 3em;
     width: 176px;
-    top: 1.75em;
+    height: 52px;
     border-radius: 0;
+    align-self: flex-end;
 }

@@ -1,8 +1,10 @@
-/*.intro__list{
-    margin:0;
-    padding: 0;
-    display: grid;
-    justify-items: start;
-    gap: 18px;
-    grid-template-row:repeat(5,1fr);
-    text-decoration: none;*/
+   intro__list {
+       margin: 0;
+       padding: 0;
+       display: grid;
+       justify-items: start;
+       gap: 18px;
+       grid-template-row: repeat(5, 1fr);
+       text-decoration: none;
+       bottom: 92px;
+   }

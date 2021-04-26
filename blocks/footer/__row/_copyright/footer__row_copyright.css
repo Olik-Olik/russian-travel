@@ -1,7 +1,8 @@
 .footer__row_copyright{
     margin: auto;
-
+    min-width: 186px;
+    max-height: 16px;
     padding: 92px 0 24px 0;
-    max-width: 1184px;
     color: #FFFFFF;
+
 }

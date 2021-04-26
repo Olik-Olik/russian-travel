@@ -1,3 +1,35 @@
 .cover{
-    background: #2A2C2F;
+    align-items: center;
+    align-content: center;
+    max-height: 740px;
+    border-radius: 0;
+   /* margin: 205px 48px 130px 48px;*/
+    position: relative;/*absolute*/
+    max-width: 1184px;
+    opacity: 0.3;
+    display: block;
+    z-index: 1;
+    border: 1px solid red;
+    background-size: cover;
+    background-image: url(../../images/__background_cover_trains.jpg);
+    background-repeat: no-repeat;
+    padding-top: 0;
+    margin-top: 0;
+    height: 740px;
+    bottom: 0;
+    top: 92px;
+    width: 1184px;
+    margin-bottom: 134px;
+
+}
+
+.cover:hover::after{
+    opacity: 0.3;
+}
+.cover:after{
+    content: "";
+    position: absolute;
+    opacity: 0;
+    background: #FFFFFF;
+    transition: opacity 0.5s linear;
 }

@@ -2,8 +2,6 @@
     list-style-type:none;
     margin: 0;
     align-self: end;
-    max-width: 28.5em;/*456*/
-    max-height: 2.875em;/*46*/
-    grid-area: block-end;
-
+    max-width: 456px;
+    max-height: 46px;
 }

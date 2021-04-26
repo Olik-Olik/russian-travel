@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/inter.css);/* его у меня нет не скачала??*/
+@import url(../fonts/inter.css);
+/* его у меня нет не скачала??*/
 @import url(../blocks/root/root.css);
 
 @import url(../blocks/intro/intro.css);
@@ -48,8 +49,28 @@
 
 @import url(../blocks/places/places.css);
 
-@media screen  and (max-width: 1023px){
+/*@media screen  and (max-width: 1023px){
     .lead__image{}
     .lead__title{}
-    .lead__subtitle{}
+    .lead__subtitle{}}*/
+
+
+{
+    -webkit-box-sizing: border-box
+;
+    -moz-box-sizing: border-box
+;
+    box-sizing: border-box
+;
+    -webkit-text-size-adjust: 100%
+;
+    -moz-text-size-adjust: 100%
+;
+    -ms-text-size-adjust: 100%
+;
+    -webkit-font-smoothing: antialiased
+;
+    -moz-osx-font-smoothing: grayscale
+;
+
 }

@@ -1,6 +1,6 @@
 .intro__text{
-    margin-right:48px;
-    bottom: 33px;
+    margin: 0;
+    padding: 0;
     max-width:53.9%; /*690px;*/
     /* max-height: 208px;*/
     font-size: 16px;
