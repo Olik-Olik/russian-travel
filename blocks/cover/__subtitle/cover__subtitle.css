@@ -1,13 +1,12 @@
 .cover__subtitle {
-    margin: 32px 412px;
+   padding: 0;
+    margin-top: 32px;
     max-width: 360px;
     font-style: normal;
     line-height: 122.2%;
     letter-spacing: 0;
-    z-index: 3000;
-    margin-top: 429px;/*относительно титла 32 или блока */
+    z-index: 3001;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-    box-sizing: border-box;
 }

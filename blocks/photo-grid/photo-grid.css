@@ -1,15 +1,39 @@
-.photo-grid{
+.photo-grid {
     padding: 0;
     /*margin:0 3em 0 3em;*/
     margin: 0 auto;
     display: grid;
     justify-items: start;
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
-    grid-template-columns:repeat(4,17.75em);
-    grid-template-rows:repeat(3,13.375em);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns:repeat(4, 17.75em);
+    grid-template-rows:repeat(3, 13.375em);
     left: 3em;
     max-width: calc(100% - 6em);
     /*max-width: 1184px;/*стоит ли упоминать хз*/
-    max-Height:671px;
+    /*max-height: 671px;*/
 }
+@media screen and (max-width: 1024px){
+    .photo-grid {
+        gap: 14px;
+        grid-template-columns:repeat(auto-fit,minmax(3fr, 300px));
+        grid-template-rows:repeat(auto-fit,minmax(4fr, 225px));
+        margin: 0 34px;/* боковой=48=34+14(16 учтен в gap)или в ширине пописать*/
+    }
+}
+@media screen and (max-width: 768px){
+    .photo-grid {
+        grid-template-columns:repeat(auto-fit,minmax(2fr, 352px));
+        grid-template-rows:repeat(auto-fit,minmax(6fr, 264px));
+        /* боковой=16+8(16 учтен в gap)*/
+        /*max-width: calc(100% - 3em); излишне*/
+    }
+}
+    @media screen and (max-width: 320px){
+        .photo-grid {
+            gap:12px;
+            grid-template-columns:repeat(auto-fit,minmax(288px,1fr));
+            grid-template-rows: repeat(auto-fit,minmax(216px,12fr));
+            margin: 0 16px;
+        }
+    }

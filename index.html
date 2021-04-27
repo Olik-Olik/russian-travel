@@ -7,23 +7,32 @@
     <meta content="HTML, CSS" name="keywords">
     <meta content="Ольга Санина" name="author">
     <link href="pages/index.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" media="screen and (orientation: portrait) and
+(max-width:640px), projection" "href=»style.css" />
+
+    <link rel="stylesheet" media="screen and (orientation: portrait) and
+(max-width:1024px), projection" "href=»style.css" />
+
+    <link rel="stylesheet" media="screen and (orientation: portrait) and
+(min-width:1280px), projection" "href=»style.css" />
     <title>Путешествие по России</title>
 </head>
-
 <body class="root">
 <header class="header">
     <img alt="Россия Логотип" class="header__logo" src="images/__logo.png">
 
     <ul class="header__lang-link-all">
         <li>
-        <a class="header__lang-link header__lang-link_work" href="#" target="_blank">Ru</a>
+            <a class="header__lang-link header__lang-link_work" href="#" target="_blank">Ru</a>
         </li>
         <li>
-        <a class="header__lang-link" href="#" target="_blank">En</a>
+            <a class="header__lang-link" href="#" target="_blank">En</a>
         </li>
     </ul>
 </header>
-
 <main>
     <section class="page__lead">
         <h1 class="lead__title">Путешествия по России</h1>
@@ -92,9 +101,9 @@
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
                 <p class="place__link-header" lang="en">url</p>
-               <p><a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                   target="_blank">National
-                   Geographic</a></p>
+                <p><a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                      target="_blank">National
+                    Geographic</a></p>
             </div>
             <img alt="Картинка Кольский" class="place__image" src="./images/__image%20(1_Kolskiy).jpg">
             <div class="place__paragraphs">
@@ -117,7 +126,8 @@
             <div class="place__website">
                 <p class="place__link-header" lang="en">url</p>
                 <p><a class="place__link"
-                      href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">National</a></p>
+                      href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+                      target="_blank">National</a></p>
             </div>
             <img alt="Картинка Алтай" class="place__image" src="./images/__image%20(2_altay).jpg">
             <div class="place__paragraphs">
@@ -174,13 +184,14 @@
         </article>
     </section>
     <section class="cover">
-        <div class="cover__overlay"></div>
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
-        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"></a>
-        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-            электричках.></p>
+        <!--  <div class="cover__overlay"></div> -->
+        <div class="cover__info">
+            <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala"><h2 class="cover__title">До
+                Байкала «на собаках»</h2></a>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+                электричках.</p>
+        </div>
     </section>
-
     <footer class="footer">
         <nav class="footer__row">
             <a class="footer__row_link" href="https://yandex.ru/maps" target="_blank">Карты</a>

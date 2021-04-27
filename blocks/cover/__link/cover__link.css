@@ -1,29 +1,9 @@
 
 .cover__link {
-    margin: 0 auto;
     position: relative;
-    max-height: 740px;
-    max-width: 1184px;
-    top: 0;
     border-radius: 0;
-    Opacity: 0.3;
-    display: block;
-    z-index: 0;
-    background-size: cover;
-    background-image: url(../../../images/__background_cover_trains.jpg);
-}
-
-.cover__link:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     opacity: 0.3;
-    transition: opacity 0.3s linear;
-}
-
-.cover__link:hover::before {
-    opacity: 1;
+    z-index: 0;
+    color: #FFFFFF;
+    text-decoration-line: none;
 }

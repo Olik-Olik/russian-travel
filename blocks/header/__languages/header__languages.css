@@ -1,15 +1,33 @@
 .header__languages{
     padding: 0;
     margin: 0;
-    max-height: 1.75em;
-    top: 1.75em;
+    max-height: 28px;
+    top: 28px;
     border-radius: 0;
-    max-width: 77px;
+    max-width: 125px;
     text-decoration: none;
     display: grid;
     gap: 18px;
     grid-template-columns: 30px 29px;
     justify-items: flex-end;
     grid-area: end;
+}
+
+@media screen and (max-width: 320px) {
+    .header__languages{
+        grid-template-columns: 22px 20px;
+        max-width: 81px;
+    }
+}
+@media screen and (max-width:768px) {
+    .header__languages{
+        width: 100%;
+        max-width: 99px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .header__languages{
+        width: 100%;
+    }
 }
 

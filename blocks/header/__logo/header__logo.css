@@ -4,3 +4,8 @@
     border-radius: 0;
     align-self: flex-end;
 }
+
+@media screen and (max-width: 320px) {
+    .header {
+        max-width:142px;
+    }}

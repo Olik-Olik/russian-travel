@@ -10,7 +10,13 @@
     align-content: end;
     list-style-type:none;
 }
+/*
 .header__lang-link-all:hover{
     opacity: 0.5;
     text-decoration: underline;
 }
+*/
+@media screen and (max-width: 320px) {
+    .header {
+        grid-template-columns: 22px 20px;
+    }}

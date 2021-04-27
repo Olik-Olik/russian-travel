@@ -1,4 +1,4 @@
-.places{/*жестко нельзя ставить/ временно*/
-    width: 984px;
+.places{
+    max-width: 984px;
     padding-left: 148px;
 }
