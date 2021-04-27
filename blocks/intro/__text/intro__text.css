@@ -2,32 +2,31 @@
     margin: 0;
     padding: 0;
     max-width:53.9%; /*690px;*/
-    /* max-height: 208px;*/
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0;
+
 }
 @media screen and (max-width:1024px){
     .intro__text {
         max-width: 67.38%;
         margin-right: 48px;
-        margin-top:40px;
-
+        /* margin-top:40px;*/
     }
 }
 @media screen and (max-width:768px){
     .intro__text{
         max-width: 93.75%;
         margin-right: 24px;
-        margin-top:40px;
+
     }
 }
 @media screen and (max-width:320px){
     .intro__text {
         max-width: 90%;
         margin-right: 16px;
-        margin-top:40px;
+
     }
 }

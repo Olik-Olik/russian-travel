@@ -3,7 +3,7 @@
     background-image: url(../../../images/__background_cover_trains.jpg);
     background-repeat: no-repeat;
     z-index: 3009;
-    height: 740px;
+    max-height: 740px;
     opacity: 0.8;
 }
 

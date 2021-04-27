@@ -1,6 +1,5 @@
 .photo-grid {
     padding: 0;
-    /*margin:0 3em 0 3em;*/
     margin: 0 auto;
     display: grid;
     justify-items: start;
@@ -15,7 +14,7 @@
 }
 @media screen and (max-width: 1024px){
     .photo-grid {
-        gap: 14px;
+        gap: 32px;
         grid-template-columns:repeat(auto-fit,minmax(3fr, 300px));
         grid-template-rows:repeat(auto-fit,minmax(4fr, 225px));
         margin: 0 34px;/* боковой=48=34+14(16 учтен в gap)или в ширине пописать*/
@@ -23,6 +22,7 @@
 }
 @media screen and (max-width: 768px){
     .photo-grid {
+        gap: 28px;
         grid-template-columns:repeat(auto-fit,minmax(2fr, 352px));
         grid-template-rows:repeat(auto-fit,minmax(6fr, 264px));
         /* боковой=16+8(16 учтен в gap)*/
