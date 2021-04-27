@@ -12,22 +12,23 @@
     justify-items: flex-end;
     grid-area: end;
 }
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
     .header__languages{
-        grid-template-columns: 22px 20px;
-        max-width: 81px;
+
     }
 }
 @media screen and (max-width:768px) {
     .header__languages{
-        width: 100%;
-        max-width: 99px;
+
+
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
     .header__languages{
-        width: 100%;
+        grid-template-columns: 22px 20px;
+
     }
 }
+
+
 

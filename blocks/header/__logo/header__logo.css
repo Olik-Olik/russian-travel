@@ -1,11 +1,12 @@
-.header__logo{
+.header__logo {
     max-width: 176px;
     max-height: 52px;
     border-radius: 0;
     align-self: flex-end;
 }
 
-/*@media screen and (max-width: 320px) {
-    .header {
-        max-width:142px;
-    }}*/
+@media screen and (max-width:319px){
+    .header__logo{
+        width:142px;
+        height: 42px;
+    }}
