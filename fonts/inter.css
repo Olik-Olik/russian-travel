@@ -22,3 +22,9 @@
     src: url("./Inter-Regular.woff2") format("woff2"),
     url("./Inter-Regular.woff") format("woff");
 }
+
+/*@import url(http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
+
+<head>
+<link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic'
+rel='stylesheet' type='text/css'>*/
