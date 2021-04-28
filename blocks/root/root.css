@@ -1,6 +1,6 @@
 .root {/*основной фон*/
     margin:0 auto;
-    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     background-color:#2A2C2F;
     color: #FFFFFF;
     font-style: normal;
