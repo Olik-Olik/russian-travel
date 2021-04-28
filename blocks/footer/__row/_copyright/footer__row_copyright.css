@@ -1,8 +1,14 @@
 .footer__row_copyright{
-    margin: auto;
+    margin: 0 auto;
     min-width: 186px;
     max-height: 16px;
     padding: 92px 0 24px 0;
     color: #FFFFFF;
+}
 
+
+@media screen and (max-width: 320px) {
+    .footer__row_copyright {
+        padding-left: 16px;
+    }
 }
