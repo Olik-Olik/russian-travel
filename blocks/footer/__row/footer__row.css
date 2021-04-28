@@ -10,12 +10,19 @@
     padding: 92px 48px 24px 48px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .footer__row {
-        max-width: 720px;
-        padding-left: 24px;
-        padding-right: 24px;
-        padding-top: 88px;
+       /* max-width: 720px;*/
+        padding: 88px 24px 24px 24px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .footer__row {
+        padding: 88px 24px 24px 24px;
+        max-width: 309px;
+        max-height: 18px;
+        gap:18px;
     }
 }
 
@@ -24,5 +31,7 @@
         grid-template-rows: repeat(5, 1fr);
         grid-template-columns: repeat(1, 1fr);
         padding-left: 16px;
+        padding-bottom: 0;
+        gap: 32px;
     }
 }

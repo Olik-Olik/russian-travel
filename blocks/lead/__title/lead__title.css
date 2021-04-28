@@ -1,4 +1,4 @@
-.lead__title{
+.lead__title {
     position: relative;
     max-height: 200px;
     max-width: 720px;
@@ -10,24 +10,29 @@
     text-align: center;
     padding: 0;
 }
-@media screen and (min-width:321px) and (max-width: 1279px){
-    .lead__title{ font-size: 96px;
-                 line-height: 100px;
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .lead__title {
+        margin:0 calc(100vw*3.88px) 0 calc(100vw*3.88px);
+
     }
 }
-@media screen and (max-width:1024px){
-    .lead__title{
-        max-width: 70.31%;
-    }}
-@media screen and (max-width:768px){
-    .lead__title{
 
-    }}
-@media screen and (max-width:767px){
-    .lead__title{
-        font-size: 40px;
-        line-height: 44px;
-    }}
+/*@media screen and (min-width: 768px) and (max-width:1024px) { /* 1024/768  152/24  152-24=128
+         1024-768=256-> 128/256*768 =1/2*768 =384 итого 152-384=-232 (128/256*100vw-232px)*/
+    /*.lead__title {
+        margin-left: calc(128 * 256 * 100vw - 360px);
+        margin-right: calc(128 * 256 * 100vw - 360px);
+
+    }
+}*/
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+
+    }
+}
+
 @media screen and (max-width: 320px) {
     .lead__title {
         font-size: 40px;
