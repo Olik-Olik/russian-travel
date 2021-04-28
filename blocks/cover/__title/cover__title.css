@@ -11,7 +11,7 @@
     justify-content: center;
     text-align: center;
     color: #FFFFFF;
-    text-decoration-line: none;
+    text-decoration: none;
 }
 @media screen and (max-width: 1024px){
     .cover__title{
