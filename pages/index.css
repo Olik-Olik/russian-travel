@@ -48,28 +48,14 @@
 
 @import url(../blocks/places/places.css);
 
-/*@media screen  and (max-width: 1023px){
-    .lead__image{}
-    .lead__title{}
-    .lead__subtitle{}}*/
-
 
 {
-    -webkit-box-sizing: border-box
-;
-    -moz-box-sizing: border-box
-;
-    box-sizing: border-box
-;
-    -webkit-text-size-adjust: 100%
-;
-    -moz-text-size-adjust: 100%
-;
-    -ms-text-size-adjust: 100%
-;
-    -webkit-font-smoothing: antialiased
-;
-    -moz-osx-font-smoothing: grayscale
-;
-
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }

@@ -1,8 +1,7 @@
 .lead__image{
     display: flex;
     position: relative;
-   /* margin: 64px 148px 0 148px;*/
-    max-width: 984px;(76.875%)
+    max-width: 984px;
     max-height: 615px;
     object-fit: cover;
     align-content: center;
