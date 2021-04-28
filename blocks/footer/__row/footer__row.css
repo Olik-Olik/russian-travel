@@ -10,6 +10,15 @@
     padding: 92px 48px 24px 48px;
 }
 
+@media screen and (max-width: 768px) {
+    .footer__row {
+        max-width: 720px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 88px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer__row {
         grid-template-rows: repeat(5, 1fr);

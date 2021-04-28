@@ -1,11 +1,12 @@
 .footer{
     margin: 0;
     justify-content: space-between;
-    align-items:baseline;
     padding: 92px 48px 24px 48px;
     max-width: 1189px;
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+
 }
 
 
@@ -13,5 +14,6 @@
     .footer {
         flex-direction: column;
         padding-left: 16px;
+        width: 100%;
     }
 }
