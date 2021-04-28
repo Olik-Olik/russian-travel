@@ -3,28 +3,16 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url("./Inter-Regular.woff2") format("woff2"),
-    url("./Inter-Regular.woff") format("woff");
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url("./Inter-Regular.woff2") format("woff2"),
-    url("./Inter-Regular.woff") format("woff");
 }
 @font-face {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-display: swap;
-    src: url("./Inter-Regular.woff2") format("woff2"),
-    url("./Inter-Regular.woff") format("woff");
 }
-
-/*@import url(http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
-
-<head>
-<link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic'
-rel='stylesheet' type='text/css'>*/
