@@ -2,19 +2,20 @@
     margin: 0 auto;
     min-width: 186px;
     max-height: 16px;
-    padding: 92px 48px 24px 186px;
+/*    padding: 92px 48px 24px 186px; */
     color: #FFFFFF;
+    justify-items: end;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .footer__row-copyright {
-        padding: 88px 24px 24px 24px;
+/*        padding: 88px 24px 24px 24px; */
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .footer__row-copyright {
-        padding: 88px 24px 24px 69px;
+/*        padding: 88px 24px 24px 69px; */
         max-width: 186px;
         max-height: 16px;
         margin: 0;
@@ -23,7 +24,7 @@
 
 @media screen and (max-width: 320px) {
     .footer__row-copyright {
-        padding: 48px 16px 24px 16px;
+/*        padding: 48px 16px 24px 16px; */
         margin: 0;
     }
 }

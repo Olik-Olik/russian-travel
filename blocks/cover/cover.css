@@ -60,10 +60,12 @@
     max-height: 740px;
     width: 100%;
     opacity: 0.8;
+    text-decoration: none;
 }
 
 .cover__info:hover {
     opacity: 0.3;
+    text-decoration: none;
 }
 
 .cover__info:after {
@@ -71,4 +73,5 @@
     position: relative;
     opacity: 0.8;
     transition: opacity 0.5s linear;
+    text-decoration: none;
 }
