@@ -42,5 +42,6 @@
         grid-template-columns:repeat(auto-fit, minmax(288px, 1fr));
         grid-template-rows: repeat(auto-fit, minmax(216px, 12fr));
         left: 16px;
+        margin: 0;
     }
 }
