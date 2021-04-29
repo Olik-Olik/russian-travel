@@ -1,12 +1,10 @@
-.lead{
-   /* display: grid;
-    grid-template-rows: 200px 72px 615px 14px;
-    gap: 32px 64px 8px;*/
+.lead {
+    /* display: grid;
+     grid-template-rows: 200px 72px 615px 14px;
+     gap: 32px 64px 8px;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    height: 1005px;
-    width: 984px;
-    padding-left: 148px;
+
 }
