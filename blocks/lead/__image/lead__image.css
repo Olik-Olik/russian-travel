@@ -8,28 +8,24 @@
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .lead__image  {
         max-width: 76.875%;
-       /* padding-left: 48px;*/
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .lead__image{
         max-width: 90.625%;
-        /*padding-left: 48px;*/
     }
 }
 
 @media screen and (max-width: 321px) and (max-width: 768px) {
     .lead__image {
         max-width: 30%;
-        /*padding-left: 24px;*/
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__image{
         max-width: 99%;
-
         margin: 0 auto;
 
     }

@@ -3,4 +3,7 @@
     width: 100%;
     position: relative;
     justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    margin: 0 0 0 0;
 }
