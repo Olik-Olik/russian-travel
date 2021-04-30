@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 766px) and (max-width: 768px) {
     .footer {
         justify-content: flex-start;
         line-height: 18px;
@@ -28,7 +28,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 765px) {
     .footer {
         justify-content: flex-start;
         flex-direction: column;
