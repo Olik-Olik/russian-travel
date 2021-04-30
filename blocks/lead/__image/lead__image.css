@@ -1,8 +1,6 @@
 .lead__image{
     position: relative;
-/*    max-width: 984px;*/
     object-fit: cover;
-    align-items: center;
     margin: 0 auto;
     max-width: 96%;
 }

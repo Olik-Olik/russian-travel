@@ -3,14 +3,21 @@
     margin: 0;
     padding: 0;
     font-size: 54px;
-    font-weight: 900;
-    max-width: 153.9%;
     bottom: 58px;
-    font-style: normal;
     letter-spacing: 0;
     top: 104px;
 }
-@media screen and (max-width:1024px){
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .intro__title{
+        /* max-height: 5.66%;*/
+        max-width: 67.38%;
+        /*line-height: 58px;*/
+        bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .intro__title{
        /* max-height: 5.66%;*/
         max-width: 67.38%;
@@ -18,15 +25,12 @@
         bottom: 40px;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (min-width: 321px)and (max-width: 768px){
     .intro__title{
        /* max-height: 7.55%;*/
         max-width: 93.75%;
     }
 }
-/*@media screen and (max-width:1024px) and (max-width:768px)
-minmax(max-content, max-width:67.38%) minmax min-width:93.75%)
-}*/
 
 @media screen and (max-width:320px){
     .intro__title{
