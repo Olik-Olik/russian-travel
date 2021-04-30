@@ -3,7 +3,7 @@
     display: flex;
     position: relative;
     background-size: cover;
-    background-image: url(../../images/__background_cover_trains.jpg);
+/*    background-image: url(../../images/__background_cover_trains.jpg); */
     background-repeat: no-repeat;
     justify-items: center;
     text-decoration: none;
