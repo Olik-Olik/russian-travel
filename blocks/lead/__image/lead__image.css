@@ -2,31 +2,5 @@
     position: relative;
     object-fit: cover;
     margin: 0 auto;
-    max-width: 96%;
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
-    .lead__image  {
-        max-width: 76.875%;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .lead__image{
-        max-width: 90.625%;
-    }
-}
-
-@media screen and (max-width: 321px) and (max-width: 768px) {
-    .lead__image {
-        max-width: 30%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead__image{
-        max-width: 99%;
-        margin: 0 auto;
-
-    }
+    width: 100%;
 }

@@ -10,32 +10,27 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .intro__title{
-        /* max-height: 5.66%;*/
-        max-width: 67.38%;
-        /*line-height: 58px;*/
-        bottom: 40px;
+        line-height: 58px;
+        font-size: 54px;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .intro__title{
-       /* max-height: 5.66%;*/
-        max-width: 67.38%;
-        /*line-height: 58px;*/
-        bottom: 40px;
+        line-height: 58px;
+        font-size: 54px;
+
     }
 }
 @media screen and (min-width: 321px)and (max-width: 768px){
     .intro__title{
-       /* max-height: 7.55%;*/
-        max-width: 93.75%;
+        font-size: 32px;
+        line-height:35px;
     }
 }
 
 @media screen and (max-width:320px){
     .intro__title{
-      /*  max-height: 21.94%;*/
-        max-width: 90%;
         font-size: 32px;
         line-height:35px;
     }
