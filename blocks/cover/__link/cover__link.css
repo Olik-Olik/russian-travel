@@ -1,44 +1,35 @@
 
 .cover__link {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    position: relative;
     justify-items: center;
     text-decoration: none;
     color: #FFFFFF;
     margin: 0 auto;
 }
 
+.cover__link:hover + .cover__info{
+    opacity: 0.8;
+}
 
+/*
 .cover__info:hover > a.cover__link {
     opacity: 1.0;
-    color: brown;
-    background-color: black;
+    font-size: 122px;
     z-index: 2000;
-    text-decoration: blueviolet;
-    font-size: 72px;
 }
 
-.cover__info:hover ~ .cover__title {
-    content: "HAVA-NAGILA";
+.cover__info:hover ~ h2.cover__title {
     opacity: 1.0;
-    color: coral;
-    background-color: antiquewhite;
     z-index: 4000;
-    text-decoration: blueviolet;
-    font-size: 72px;
 }
 
-.cover__info:hover ~ .cover__subtitle{
-    content: "HAVA-NAGILA";
+.cover__info:hover ~ p.cover__subtitle{
     opacity: 1.0;
-    color: chartreuse;
-    background-color: antiquewhite;
     z-index: 6000;
-    text-decoration: blueviolet;
-    font-size: 72px;
 }
-
+*/
 
 /*
 @media screen and (min-width:1025px) and(max-width: 1280px) {
