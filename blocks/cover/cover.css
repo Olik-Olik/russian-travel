@@ -15,7 +15,7 @@
     bottom: 0;
     max-width: 1184px;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-image: url(../../images/__background_cover_trains.jpg);
     background-repeat: no-repeat;
     text-decoration: none;*/

@@ -1,4 +1,4 @@
-.lead__img-container{
+.lead__imgage-container{
     display: flex;
     width: 100%;
     position: relative;
@@ -9,27 +9,27 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    .lead__img-container  {
+    .lead__imgage-container  {
         width: 984px;
         margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .lead__img-container{
+    .lead__imgage-container{
         width: 90.625%;
         margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 321px) and (max-width: 768px) {
-    .lead__img-container{
+    .lead__imgage-container{
         width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .lead__img-container{
+    .lead__imgage-container{
         width: 99%;
         margin: 0 auto;
 
