@@ -2,37 +2,26 @@
     position: relative;
     max-width: 560px;
     max-height: 152px;
-    font-size: 72px;
     font-style: normal;
-    font-weight: 900;
-    line-height: 76px;
-    letter-spacing: 0;
     z-index: 3002;
     justify-content: center;
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+    margin: 0 auto;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: 0;
+    font-weight: 900;
 
 }
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .cover__title{
-        font-size: 72px;
-        line-height: 76px;
-        max-width:560px;
-        max-height:152px;
-        font-style: normal;
-        letter-spacing: 0;
-        text-align: center;
+
     }
 }
     @media screen and (min-width: 769px) and (max-width: 1024px) {
     .cover__title{
-        font-size: 72px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 76px;
-        letter-spacing: 0;
-        text-align: center;
     }
 }
 
@@ -41,12 +30,8 @@
         font-size: 32px;
         line-height: 35px;
         max-width:288px;
-        min-height:70px;
-        text-decoration: none;
-        font-style: normal;
-        font-weight: 900;
-        letter-spacing: 0;
-        text-align: center;
+        max-height:70px;
+
 
     }}
 

@@ -1,23 +1,28 @@
 .cover__info{
     max-width:1184px;
+    min-height: 740px;
     margin: 0 auto;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .cover__info{
-        margin: 0 auto;
+       padding-top: 92px;
         max-width:1024px;
+        min-height: 640px;
+
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .cover__info{
+        padding-top: 90px;
         max-width:768px;
-        margin: 0 auto;
+        min-height: 480px;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px){
     .cover__info {
-       width: 100%;
-        margin: 0 auto;
+        padding-top: 66px;
+        max-width:320px;
+        min-height: 200px;
     }}
