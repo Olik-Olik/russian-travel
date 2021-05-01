@@ -5,35 +5,32 @@
     background-size: contain;
     background-image: url(../../../images/__background_cover_trains.jpg);
     background-repeat: no-repeat;
-    min-height: 740px;
-
+    height: 62.5vw;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .cover__info{
         width:92.5%;
-        min-height: 740px;
+
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .cover__info{
         width: 100%;
-        min-height: 640px;
+
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px){
     .cover__info {
         width:100%;
-        min-height: 480px;
+
     }
 }
 
 @media screen and (max-width: 320px){
     .cover__info {
         width: 100%;
-        min-height: 200px;
-/*        background-image: url(../../../images/__background_cover_trains_320x200.jpg); */
     }
 }
 

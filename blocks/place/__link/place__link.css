@@ -5,6 +5,7 @@
     line-height: 122%;
     width: 456px;
     text-decoration-line: underline;
+    color: #FFFFFF;
     grid-column: 2/2;
     grid-row: 1/3;
 }
