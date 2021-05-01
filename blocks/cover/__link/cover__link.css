@@ -3,18 +3,14 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    background-size: contain;
-    background-image: url(../../../images/__background_cover_trains.jpg);
-    background-repeat: no-repeat;
     justify-items: center;
     text-decoration: none;
-    z-index: 0;
+    z-index: 4000;
     color: #FFFFFF;
-    background-position: center;
     margin: 0 auto;
 }
 
-.cover__link:before{
+/*.cover__link:before{
     content: "";
     opacity: 0.3;
     background: #2A2C2F;
@@ -52,3 +48,4 @@
         min-height: 200px;
     }
 }
+*/
