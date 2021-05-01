@@ -1,5 +1,8 @@
 .cover {
-    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+    /*align-items: center;
     justify-content: center;
     margin: 66px auto;
     border-radius: 0;
@@ -14,11 +17,9 @@
     background-size: cover;
     background-image: url(../../images/__background_cover_trains.jpg);
     background-repeat: no-repeat;
-    text-decoration: none;
+    text-decoration: none;*/
 
-}
-
-.cover:hover {
+/*.cover:hover {
     opacity: 0.3;
 }
 
@@ -75,4 +76,4 @@
     opacity: 0.8;
     transition: opacity 0.5s linear;
     text-decoration: none;
-}
+*/
