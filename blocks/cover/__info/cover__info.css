@@ -1,11 +1,13 @@
 .cover__info{
+    display: flex;
     width: 92.5%;
     margin: 0 auto;
     z-index: 5000;
-    background-size: contain;
+    background-size: cover;
     background-image: url(../../../images/__background_cover_trains.jpg);
     background-repeat: no-repeat;
     height: 62.5vw;
+    align-items: center;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
