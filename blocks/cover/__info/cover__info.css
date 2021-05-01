@@ -2,24 +2,40 @@
     display: flex;
     width: 92.5%;
     margin: 0 auto;
-    z-index: 5000;
     background-size: cover;
     background-image: url(../../../images/__background_cover_trains.jpg);
     background-repeat: no-repeat;
     height: 62.5vw;
     align-items: center;
 }
+/*
+.cover__info:before{
+    content: "";
+    background: #AAAAAA;
+    opacity: 0.6;
+    position: absolute;
+}
+.cover__info:hover::after{
+    opacity: 0.8;
+}
+*/
+
+.cover__info:hover {
+    opacity: 0.3;
+    z-index: 1;
+    background-color: black;
+}
+
+
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .cover__info{
         width:92.5%;
-
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .cover__info{
         width: 100%;
-
     }
 }
 
@@ -49,16 +65,28 @@
     opacity: 0.8;
     text-decoration: none;
 }
+*/
 
-.cover__info:hover {
-    opacity: 0.3;
-    text-decoration: none;
-}
 
-.cover__info:after {
+
+/*
+.cover__info:hover:after {
     content: "";
     position: relative;
-    opacity: 0.8;
+    opacity: 1;
     transition: opacity 0.5s linear;
     text-decoration: none;
+}
 */
+
+/*
+.cover__info:hover:after  .cover__link{
+    opacity: 1;
+}
+
+.cover__info:hover ~ .cover__title{
+    opacity: 1;
+}.cover__info:hover ~ .cover__subtitle{
+    opacity: 1;
+}
+ */

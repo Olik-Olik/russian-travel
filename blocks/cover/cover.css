@@ -8,19 +8,26 @@
     justify-content: center;
     margin: 0 auto;
     border-radius: 0;
-    opacity: 0.8;
     bottom: 0;
 /*    max-width: 1184px; */
     width: 100%;
-}
 
+}
+/*
+.cover__info:hover > .cover__info{
+    opacity: 0.3;
+}
+.cover__info:hover + .cover__link{
+    opacity: 0.5;
+}
 .cover:hover {
     opacity: 0.3;
 }
 
-.cover:after {
+.cover:hover:after {
     content: "";
     position: relative;
     opacity: 0.8;
     transition: opacity 0.5s linear;
 }
+*/

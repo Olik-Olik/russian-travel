@@ -2,7 +2,7 @@
     max-width: 360px;
     line-height: 22px;
     letter-spacing: 0;
-    z-index: 3001;
+    z-index: 30;/* у линка меньше должен быть*/
     font-size: 18px;
     font-weight: 400;
     font-style: normal;

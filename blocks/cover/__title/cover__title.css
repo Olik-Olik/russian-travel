@@ -1,7 +1,7 @@
 .cover__title {
     position: relative;
     font-style: normal;
-    z-index: 3002;
+/*    z-index: 3002;*/
     justify-content: center;
     text-align: center;
     color: #FFFFFF;
@@ -13,6 +13,18 @@
     font-weight: 900;
     max-width: 560px;
 }
+/*
+.cover__title:before{
+    content: "";
+    background: #AAAAAA;
+    opacity: 0.6;
+    position: absolute;
+}
+.cover__title:hover::before{
+    opacity: 0.8;
+}
+
+*/
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .cover__title {
