@@ -26,3 +26,29 @@
         max-width:320px;
         min-height: 200px;
     }}
+/*.cover__info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    z-index: 3009;
+    min-height: 740px;
+    width: 100%;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.cover__info:hover {
+    opacity: 0.3;
+    text-decoration: none;
+}
+
+.cover__info:after {
+    content: "";
+    position: relative;
+    opacity: 0.8;
+    transition: opacity 0.5s linear;
+    text-decoration: none;
+*/

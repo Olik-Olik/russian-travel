@@ -1,4 +1,4 @@
-.footer__row-copyright {
+.footer__copyright {
     margin: 0;
    /* min-width: 186px;
     max-height: 16px;*/
@@ -9,14 +9,14 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .footer__row-copyright {
+    .footer__copyright {
         /*        padding: 88px 24px 24px 24px; */
         justify-items: right;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
-    .footer__row-copyright {
+    .footer__copyright {
         /*        padding: 88px 24px 24px 69px;
                */
         margin: 0;
@@ -29,7 +29,7 @@
     }
 }
 @media screen and (max-width: 320px) {
-    .footer__row-copyright {
+    .footer__copyright {
         /*        padding: 48px 16px 24px 16px; */
         margin: 0;
         padding-top: 48px;
