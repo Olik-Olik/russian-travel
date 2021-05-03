@@ -1,11 +1,9 @@
-   .intro__list {
-       margin: 0;
-       padding: 0;
-       justify-items: start;
-          /*gap: 18px;
-            grid-template-rows: repeat(5, 1fr);
-             /*text-decoration: none;
-              display: grid;*/
-
-
-   }
+.intro__list {
+    margin: 0;
+    padding: 0;
+    justify-items: start;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+}

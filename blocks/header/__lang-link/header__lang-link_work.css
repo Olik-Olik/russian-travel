@@ -2,11 +2,6 @@
     text-decoration: underline;
 }
 
-.header__lang-link_work:hover::after {
-    opacity: 1;
-    text-decoration: none;
-}
-
 .header__lang-link_work:hover {
     opacity: 0.3;
     text-decoration: underline;

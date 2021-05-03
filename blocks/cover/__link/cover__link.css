@@ -1,37 +1,58 @@
-
 .cover__link {
-    position: absolute;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-items: center;
     text-decoration: none;
     color: #FFFFFF;
     margin: 0 auto;
+    max-width: 100%;
+    background-size: contain;
+    background-image: url(../../../images/__background_cover_trains.jpg);
+    background-repeat: no-repeat;
+    opacity: 70%;
 }
 
+/* change ******************//*
 .cover__link:hover + .cover__info{
     opacity: 0.8;
 }
+*/
+.cover__link:before{
+    position: absolute;
+    opacity: 20%;
+    background: #2A2C2F;
+    content: "";
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.cover__link:hover::before{
+    position: absolute;
+    opacity: 80%;
+   /* background: #2A2C2F;*/
+    content: "";
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
 
+/* change
+.cover__link:hover{
+    opacity: 20%;
+    z-index: 1;
+}
+*/
 /*
 .cover__info:hover > a.cover__link {
     opacity: 1.0;
     font-size: 122px;
     z-index: 2000;
-}
 
-.cover__info:hover ~ h2.cover__title {
-    opacity: 1.0;
-    z-index: 4000;
-}
-
-.cover__info:hover ~ p.cover__subtitle{
-    opacity: 1.0;
-    z-index: 6000;
-}
 */
 
-/*
 @media screen and (min-width:1025px) and(max-width: 1280px) {
   .cover__link{
       width: 1184px;
@@ -56,7 +77,5 @@
 @media screen and (max-width:320px){
     .cover__link{
         max-width: 320px;
-        min-height: 200px;
     }
 }
-*/
