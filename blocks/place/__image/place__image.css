@@ -1,6 +1,6 @@
 .place__image {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+   /* padding: 0;*/
     /*max-width: 100%;*/
     grid-column: 1/2;
     max-width: 460px;
@@ -8,6 +8,7 @@
     width: 100%;
     object-fit: contain;
     object-position: top;
+    align-items: center;
 }
 
 

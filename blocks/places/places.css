@@ -6,7 +6,7 @@
     padding-right: 148px;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1288px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
     .places {
         padding-left:148px;
         padding-right: 148px;
@@ -27,7 +27,7 @@
     }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
     .places {
         padding-top: 64px;
         padding-left:24px;
