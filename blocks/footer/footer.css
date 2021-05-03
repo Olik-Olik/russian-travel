@@ -20,17 +20,8 @@
         padding: 88px 24px 24px 24px;
     }
 }
-/*
-@media screen and (min-width: 766px) and (max-width: 768px) {
-    .footer {
-        justify-content: flex-start;
-        line-height: 18px;
-        max-width:93.75%;
-        padding: 28px 24px 24px 24px;
-    }
-}
-*/
-@media screen and (min-width: 320px)and (max-width: 767px)  {
+
+@media screen and (min-width: 320px)and (max-width: 767px) {
     .footer {
         justify-content: flex-start;
         flex-direction: column;

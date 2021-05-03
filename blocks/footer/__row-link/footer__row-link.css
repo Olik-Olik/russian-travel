@@ -1,21 +1,21 @@
-.footer__row-link{
-    margin:0;
+.footer__row-link {
+    margin: 0;
     padding: 0;
-    font-size:16px;
+    font-size: 16px;
     text-decoration: none;
     font-style: normal;
-    line-height:18px;
+    line-height: 18px;
     font-weight: 400;
     color: #FFFFFF;
 }
 
-.footer__row-link:hover{
+.footer__row-link:hover {
     opacity: 0.8;
     transition: color 1s linear 0.5s;
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 767px)  {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .footer__row-link {
         font-size: 24px;
         line-height: 24px;

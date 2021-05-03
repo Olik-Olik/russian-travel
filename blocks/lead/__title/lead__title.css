@@ -28,10 +28,11 @@
         padding: 0 16px 0 16px;
         margin: 0 16px 16px 16px;
         line-height: 44px;
-   }
+    }
 }
-@media screen and (max-width: 320px){
-     .lead__title {
-         font-size: 40px;
-     }
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        font-size: 40px;
+    }
 }
