@@ -1,8 +1,9 @@
 .intro {
-    margin: 0 auto;
     display: grid;
     max-width: 690px;
     text-align: justify-all;
+    padding-bottom: 92px;
+    padding-top: 92px;
 
 }
 
