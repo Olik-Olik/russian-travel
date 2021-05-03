@@ -2,23 +2,19 @@
     position: relative;
     font-style: normal;
     justify-content: center;
-    text-align: center;
     color: #FFFFFF;
     text-decoration: none;
-    padding: 245px 312px 0 312px;
-     max-width: 560px;
+    width: 100%;
     font-size: 72px;
     letter-spacing: 0;
     font-weight: 900;
+    /*height: 50%;*/
 }
 
 @media screen and (min-width: 769px) and (max-width: 1025px) {
     .cover__title {
         font-size: 72px;
         line-height: 76px;
-        max-width: 560px;
-        padding: 195px 232px 0 232px;
-        max-height: 152px;
     }
 }
 
@@ -26,8 +22,6 @@
     .cover__title {
         font-size: 72px;
         line-height: 76px;
-        max-width: 560px;
-        padding: 115px 104px 0 104px;
     }
 }
 
@@ -35,8 +29,6 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        max-width: 288px;
-        padding: 16px 33px 0 33px;
     }
 }
 
