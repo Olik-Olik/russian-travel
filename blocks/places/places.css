@@ -31,7 +31,7 @@
 @media screen and (max-width: 320px) {
     .places {
         padding-top: 64px;
-        padding-left: 24px;
-        padding-right: 24px;
+        padding-left: 0;
+        padding-right: 0;
     }
 }

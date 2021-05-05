@@ -9,20 +9,16 @@
     text-align: center;
     align-items: center;
     max-width: 360px;
-    width: 47%;
 }
-
+/*
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .cover__subtitle {
-        width: 55%;
-    }
-}
+        /*max-width: 360px;*/
 
 @media screen and (min-width: 701px) and (max-width: 768px) {
     .cover__subtitle {
         font-size: 18px;
         line-height: 22px;
-        width: 73%;
     }
 }
 
@@ -31,6 +27,5 @@
         font-size: 14px;
         line-height: 16px;
         max-width: 288px;
-        width: 90%;
     }
 }

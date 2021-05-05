@@ -13,7 +13,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/header__lang-link_work.css);
+@import url(../blocks/header/__lang-link/_work/header__lang-link_work.css);
 @import url(../blocks/header/__lang-link-all/header__lang-link-all.css);
 
 @import url(../blocks/lead/__caption/lead__caption.css);
