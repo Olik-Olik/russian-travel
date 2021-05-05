@@ -8,6 +8,7 @@
     margin: 0 auto;
     max-width: 100%;
     min-height: 62.5vw;
+/*    max-height: 740px;*/
     background-size: contain;
     background-image: url(../../../images/__background_cover_trains.jpg);
     background-repeat: no-repeat;
@@ -29,8 +30,10 @@
     opacity: 80%;
 }
 
-@media screen and (min-width: 1280px) {
+
+@media screen and (min-width: 1184px) {
    .cover__link  {
         min-height: 740px;
     }
 }
+
