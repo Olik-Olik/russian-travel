@@ -8,12 +8,10 @@
     margin: 0 auto;
     max-width: 100%;
     min-height: 62.5vw;
-   /* max-height: 740px;*/
     background-size: contain;
     background-image: url(../../../images/__background_cover_trains.jpg);
     background-repeat: no-repeat;
     background-position: center;
-   /* opacity: 70%;*/
 }
 
 .cover__link:before {
@@ -29,10 +27,4 @@
 
 .cover__link:hover::before {
     opacity: 80%;
-   /* position: absolute;
-    content: "";
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;*/
 }
