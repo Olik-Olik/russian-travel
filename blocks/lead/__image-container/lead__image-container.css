@@ -10,6 +10,7 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .lead__image-container {
+        /*width: 984px;*/
         margin: 0 auto;
     }
 }
@@ -21,15 +22,16 @@
     }
 }
 
-@media screen and (max-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
     .lead__image-container {
         width: 100%;
     }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
     .lead__image-container {
         width: 99%;
         margin: 0 auto;
     }
 }
+
