@@ -20,7 +20,7 @@
     .place__title {
         font-size: 42px;
         line-height: 46px;
-         padding-right: 40px;
+        word-spacing: 16px;
     }
 }
 

@@ -3,10 +3,9 @@
     display: grid;
     gap: 48px 40px;
     align-self: center;
-
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
-    padding-bottom: 92px;
+    padding-bottom: 73px;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
@@ -26,7 +25,7 @@
 @media screen and (min-width: 321px) and (max-width: 767px) {
     .place {
         grid-template-columns: repeat(1, 1fr);
-        gap: 32px;
+        gap: 28px;
         padding-bottom: 66px;
     }
 }

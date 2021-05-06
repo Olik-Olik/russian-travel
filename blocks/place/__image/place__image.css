@@ -6,6 +6,8 @@
     object-fit: contain;
     object-position: top;
     align-items: center;
+    background-size: cover;
+
 }
 
 
@@ -25,6 +27,7 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .place__image {
         max-width: 340px;
+        margin: 0;
     }
 }
 
