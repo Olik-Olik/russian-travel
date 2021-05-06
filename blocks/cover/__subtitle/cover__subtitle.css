@@ -13,7 +13,6 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .cover__subtitle {
-       max-width: 34%/*для переноса "Транссибе" на другую строку без <br> html*/;
     }
     }
 @media screen and (min-width: 701px) and (max-width: 768px) {
