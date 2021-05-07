@@ -20,6 +20,6 @@
         font-size: 32px;
         line-height: 35px;
         max-height: 70px;
-        max-width: 85%; /*надо для переноса -не- на 2 стр. word-spacing не подходит*/
+        max-width: 85%; /*надо для переноса -не- на 2 стр. word-spacing не подходит растягивает некрасиво*/
     }
 }

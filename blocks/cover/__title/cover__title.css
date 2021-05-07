@@ -23,7 +23,7 @@
 @media screen and (min-width: 701px) and (max-width: 768px) {
     .cover__title {
         font-size: 72px;
-        max-width: 73%;/*для переноса "о Транссибе" на другую строку без <br>*/
+        max-width: 73%;/*для переноса "на" на другую строку без <br>и span и word-spacing*/
     }
 }
 
@@ -33,11 +33,15 @@
         font-size: 32px;
         line-height: 35px;
         padding-bottom: 16px;
-        max-width: 75%;/*для переноса "о Транссибе" на другую строку без <br>*/
-
     }
 }
 
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        max-width: 75%;/*для переноса "на" на другую строку без <br> и span и word-spacing*/
+    }
+}
 
 
 

@@ -6,19 +6,22 @@
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
     padding-bottom: 92px;
+
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
     .place {
         row-gap: 48px;
         column-gap: 40px;
+         padding-bottom: 92px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .place {
         row-gap: 48px;
         column-gap: 32px;
+        padding-bottom: 73px;
 
     }
 }

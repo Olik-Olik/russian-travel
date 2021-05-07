@@ -10,17 +10,18 @@
 
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 769px) and (max-width: 1024px) {
     .place__title {
         padding: 0;
+
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 321px)and (max-width: 768px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        word-spacing: 16px;
+        word-spacing: 16px;/*для переноса на 2-ую стр заголовка*/
     }
 }
 
