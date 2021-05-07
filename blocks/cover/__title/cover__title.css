@@ -23,7 +23,7 @@
 @media screen and (min-width: 701px) and (max-width: 768px) {
     .cover__title {
         font-size: 72px;
-        max-width: 73%;/*для переноса "на" на другую строку без <br>и span и word-spacing*/
+        max-width: 73%; /*для переноса "на" на другую строку без <br>и span и word-spacing*/
     }
 }
 
@@ -39,7 +39,7 @@
 
 @media screen and (max-width: 320px) {
     .cover__title {
-        max-width: 75%;/*для переноса "на" на другую строку без <br> и span и word-spacing*/
+        max-width: 75%; /*для переноса "на" на другую строку без <br> и span и word-spacing*/
     }
 }
 

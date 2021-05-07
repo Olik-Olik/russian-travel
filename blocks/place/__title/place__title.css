@@ -21,7 +21,7 @@
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        word-spacing: 16px;/*для переноса на 2-ую стр заголовка*/
+        word-spacing: 16px; /*для переноса на 2-ую стр заголовка*/
     }
 }
 

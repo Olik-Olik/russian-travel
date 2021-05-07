@@ -21,7 +21,7 @@
     .lead__subtitle {
         font-size: 30px;
         line-height: 36px;
-        padding-top: 0;/*было 32*/
+        padding-top: 0;
         padding-bottom: 56px;
     }
 }
